@@ -51,18 +51,6 @@
         <artifactId>maven-resources-plugin</artifactId>
         <version>${maven-resource-plugin.version}</version>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>${maven-jar-plugin.version}</version>
-        <configuration>
-          <archive>
-            <manifest>
-              <mainClass>be.vives.ti.App</mainClass>
-            </manifest>
-          </archive>
-        </configuration>
-      </plugin>
     </plugins>
   </build>
 
